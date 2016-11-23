@@ -1,0 +1,39 @@
+**********Install pip and virtual envirinment *********
+
+sudo apt-get install python-pip python-dev build-essential 
+sudo pip install --upgrade pip 
+sudo pip install --upgrade virtualenv 
+
+virtualenv venv
+
+source venv/bin/activate
+
+
+****************install all required packages***************
+go to project directory and then run below command to install list of package.
+
+pip install -r requirments.txt
+
+
+**********Database migrations******
+go to directory and then run 
+
+python manage.py makemigrations
+python manage.py makemigrate
+
+python manage.py createsuperuser
+
+python manage.py runserver 0.0.0.0:8809
+
+
+
+http://127.0.0.1:8809/
+
+python manage.py insert_url [YOUR INPUT URL]
+
+python manage.py insert_url https://www.khanacademy.org
+
+
+python manage.py insert_url http://community.virtual-labs.ac.in/w/index.php/Main_Page
+
+python manage.py insert_url http://vlabs.ac.in
