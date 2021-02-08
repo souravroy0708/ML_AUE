@@ -30,7 +30,7 @@ duplicity==0.6.23
 fuzzywuzzy==0.8.1
 goose-extractor==1.0.25
 html5lib==0.999
-httplib2==0.8
+httplib2==0.19.0
 jieba==0.38
 lockfile==0.8
 lxml==3.3.3
