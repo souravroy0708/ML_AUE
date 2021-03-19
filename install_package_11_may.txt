@@ -23,7 +23,7 @@ django-datatable==0.2.0
 django-debug-toolbar==1.4
 django-eztables==0.3.2
 django.js==0.8.1
-djangorestframework==3.3.3
+djangorestframework==3.11.2
 duplicity==0.6.23
 fuzzywuzzy==0.8.1
 goose-extractor==1.0.25
