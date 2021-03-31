@@ -31,7 +31,7 @@ html5lib==0.999
 httplib2==0.8
 jieba==0.38
 lockfile==0.8
-lxml==3.3.3
+lxml==4.6.3
 mechanize==0.2.5
 networkx==1.11
 nltk==3.2.1
